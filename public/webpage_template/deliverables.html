@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Online Portfolio | 制作物紹介</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="加藤木優斗のオンラインポートフォリオです。就職活動用に、これまでの制作物の紹介や簡単な自己紹介などをしております。">
+    <meta name="keywords" content="加藤木優斗,ポートフォリオ,SE,エンジニア,学生">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slide.css">
+    <link rel="stylesheet" href="css/inview.css">
+    <link rel="icon" href="images/favicon.ico">
+    <script src="js/openclose.js"></script>
+    <script src="js/fixmenu.js"></script>
+    <script src="js/fixmenu_pagetop.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+    <div id="container">
+
+        <header>
+			<div id="inner-header">
+				<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="オンラインポートフォリオ"></a></h1>
+				<nav id="header-menu">
+					<ul>
+						<li><a href="index.html">ホーム</a></li>
+						<li><a href="introduce.html">自己紹介</a></li>
+						<li class="current"><a href="deliverables.html">制作物紹介</a></li>
+					</ul>
+				</nav>
+			</div>
+			<!-- <ul class="nav">
+				<li><a href="index_en.html">English</a></li>
+				<li><a href="index_en.html">Chinese</a></li>
+			</ul> -->
+		</header>
+
+		<!--開閉メニュー-->
+		<nav id="menubar">
+			<ul>
+				<li><a href="index.html">ホーム</a></li>
+                <li><a href="introduce.html">自己紹介</a></li>
+                <li class="current"><a href="deliverables.html">制作物紹介</a></li>
+                <li><a href="links.html">その他リンク等</a></li>
+			</ul>
+		</nav>
+
+        <div id="contents">
+
+            <div class="inner">
+
+                <section>
+
+                    <h2>Deliverables<br><span>制作物紹介</span></h2>
+
+                    <h3>Preface<span>はじめに</span></h3>
+					<p class="c">このページでは制作物の紹介をしておりますが、フォルダ(プログラム自体)はGitHubにおいているものがほとんどです。<br>
+						そのため、説明と共に、GitHubのレポジトリへのリンク、またはダウンロードリンクを掲載しております。予めご了承ください。</p>
+                    
+                    <div class="list-column-container">
+
+                        <div class="list-column">
+                            <figure><img src="images/sample1.jpg" alt=""></figure>
+                            <div class="text">
+                                <h4>Java | <a  href="https://github.com/MasKatx/refrigerator-java" target="_blank">冷蔵庫内食品管理システム</a></h4>
+                                <p>ここに説明を入れます。</p>
+                            </div>
+                        </div>
+
+                        <div class="list-column">
+                            <figure><video src="images/sample_movie.mp4" autoplay loop muted playsinline>
+                                <img src="images/sample_movie.jpg" alt="">
+                            </video></figure>
+                            <div class="text">
+                                <h4>HTML/CSS/JavaScript | <a href="https://github.com/MasKatx/Open-Hack-U" target="_blank">readnote</a></h4>
+                                <p>ここに説明を入れます。</p>
+                            </div>
+                        </div>
+
+                        <div class="list-column">
+                            <figure><img src="images/sample1.jpg" alt=""></figure>
+                            <div class="text">
+                                <h4>HTML/CSS/PHP | <a href="https://github.com/MasKatx/kakerubo" target="_blank">kakerubo</a></h4>
+                                <p>ここのスタイルは、style.cssの、<br>
+                                    /*list-column（トップページで使っている３列ブロック）<br>
+                                    で調整できます。</p>
+                            </div>
+                        </div>
+
+                        <div class="list-column">
+                            <figure><img src="images/sample1.jpg" alt=""></figure>
+                            <div class="text">
+                                <h4>HTML/CSS/PHP | <a href="https://github.com/MasKatx/kakerubo" target="_blank">kakerubo</a></h4>
+                                <p>ここのスタイルは、style.cssの、<br>
+                                    /*list-column（トップページで使っている３列ブロック）<br>
+                                    で調整できます。</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--/.list-column-container-->
+
+                </section>
+
+            </div>
+            <!--/.inner-->
+
+        </div>
+        <!--/#contents-->
+
+        <footer>
+            <div id="copyright">
+                <ul class="icon">
+                    <li><a href="https://twitter.com/forProgramTest" target="_blank"><img src="images/icon_twitter.png"
+                                alt="Twitter"></a></li>
+                    <li><a href="https://github.com/MasKatx" target="_blank"><img
+                                src="images/GitHub-Mark-Light-120px-plus.png" alt="github"></a></li>
+                </ul>
+                <small>&copy; <a href="index.html">Masato Katogi</a></small>
+                <span class="pr"><a href="https://template-party.com/" target="_blank">《Web
+                        Design:Template-Party》</a></span>
+            </div>
+            <!--/#copyright-->
+
+        </footer>
+
+    </div>
+    <!--/#container-->
+
+    <p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+
+    <!--メニュー開閉ボタン-->
+    <div id="menubar_hdr" class="close"></div>
+
+    <!--メニューの開閉処理-->
+    <script>
+        open_close("menubar_hdr", "menubar");
+    </script>
+
+    <!--パララックス用ファイル読み込み-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inview/1.0.0/jquery.inview.min.js"></script>
+    <script src="js/jquery.inview_set.js"></script>
+
+</body>
+
+</html>
